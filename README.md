@@ -2,4 +2,4 @@
 
 docker build -t app-obs .  
 
-docker run -d --name my-app-obs app-obs
+docker run --name my-app-obs app-obs
