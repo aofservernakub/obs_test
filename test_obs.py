@@ -19,7 +19,7 @@ def main() :
     obs_credentials = dict(conf.items('OBS'))
     print(obs_credentials)
 
-    bucket_name = obs_credentials['bucketName']
+    bucket_name = obs_credentials['bucketname']
 
     # Create an instance of ObsClient.
     obs_client = ObsClient(
